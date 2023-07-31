@@ -20,9 +20,10 @@ void free_listint2(listint_t **head)
 	}
 	else
 	{
-		return;/*
-			  *If the list is empty, return without doing anything
-			  */
+		return;
+		/*
+		 * If the list is empty, return without doing anything
+		*/
 	}
 
 	free(*head);
